@@ -31,7 +31,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Readme.txt">
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="v1.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

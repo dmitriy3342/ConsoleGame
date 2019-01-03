@@ -160,7 +160,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Readme.txt" />
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="v1.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
